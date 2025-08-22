@@ -62,17 +62,16 @@ for code, name in filtered_classes:
     st.write(f"- **{code}**: {name}")
 
 st.subheader("What Have I Been Up To?")
-st.markdown("**1) Projects:** I have been working on a project recently that involves self-recording and analyzing typing performance of different Keyboard switches. Currently, I am on the Data Analysis phase which has been conducted through Juypter Notebooks. My aim is to see if certain factors (price, weight, sound) affect performance like Words Per Minute or accuracy, while also making models to predict my performance based on these factors.")
-st.markdown("**Visit my Project page for more information!**")
+st.markdown("**1) Coding:** Recently, I have been polishing my coding skills through various sites like Kaggle and LeetCode. I want to be prepared for the upcoming school year, and by reviewing and learning new concepts, I can jump into my junior year well-prepared for all things code.")
 st.write("")
 
-st.markdown("**2) Internships:** I am the current Data Science Manager for Associated Students of UC Davis Pantry. My role is overseeing all data-related tasks, including data analysis, projects, and collection. Currently, I am exploring the different resources needed for the position and brainstorming ideas for future projects.")
+st.markdown("**2) Internships:** I am the current Data Science Manager for Associated Students of UC Davis Pantry. My role is overseeing all data-related tasks, including data analysis, projects, and collection. Currently, I am exploring the different necescary resources, brainstorming ideas for future projects, and creating the necessary onboarding documnents for my future team members.")
 st.image("images/logo-white-transparentbg.png", width = 150)
 st.write("")
 
 st.markdown("**3) Independent Learning:** Outside of Data Science, I have been learning and practicing the guitar, Japanese (Duolingo) and photography. While these skills are not related to Data Science, they help me develop other skills like pattern recognition, patience, and persistance, which are all important in the field of Data Science.")
 photos = {
-"Lighthouse": {
+"Photography": {
     "image": Image.open("images/DSC03650.jpg"),
     "caption": "A photo of the lighthouse at San Francisco's Fort Point, taken on a Sony A6000"
 },
