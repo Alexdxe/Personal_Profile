@@ -60,16 +60,19 @@ else:
 st.markdown("#### Classes Taken")
 for code, name in filtered_classes:
     st.write(f"- **{code}**: {name}")
+st.write("")
 
 st.subheader("What Have I Been Up To?")
-st.markdown("**1) Coding:** Recently, I have been polishing my coding skills through various sites like Kaggle and LeetCode. I want to be prepared for the upcoming school year, and by reviewing and learning new concepts, I can jump into my junior year well-prepared for all things code.")
+st.write("")
+st.image("images/UC-Davis-Logo.png", width = 350)
+st.markdown("**1) School:** With school back in session, I have been taking some time to adjust back into the school mindset, studying material and completing homework assignments. Classes I am taking this quarter include: **STA 131A**, **ECS 119**, **STS 110**, and **NUT10V**.")
 st.write("")
 
-st.markdown("**2) Internships:** I am the current Data Science Manager for Associated Students of UC Davis Pantry. My role is overseeing all data-related tasks, including data analysis, projects, and collection. Currently, I am exploring the different necescary resources, brainstorming ideas for future projects, and creating the necessary onboarding documnents for my future team members.")
 st.image("images/logo-white-transparentbg.png", width = 150)
+st.markdown("**2) Internships:** I am the current Data Science Manager for Associated Students of UC Davis Pantry. My role is overseeing all data-related tasks, including data analysis, projects, and collection. Currently, I am producing monthly reports based on donations and consumer data. I am also in the process of brainstorming up a large-scale feedback-based project for me and my team to complete.")
 st.write("")
 
-st.markdown("**3) Independent Learning:** Outside of Data Science, I have been learning and practicing the guitar, Japanese (Duolingo) and photography. While these skills are not related to Data Science, they help me develop other skills like pattern recognition, patience, and persistance, which are all important in the field of Data Science.")
+st.markdown("**3) Independent Learning:** Outside of Data Science, I have been learning and practicing the guitar, Japanese (Duolingo) and photography/photoshop. While these skills are not related to Data Science, they help me develop other skills like pattern recognition, patience, and persistance, which are all important in the field of Data Science.")
 photos = {
 "Photography": {
     "image": Image.open("images/DSC03650.jpg"),
