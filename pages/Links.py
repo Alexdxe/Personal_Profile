@@ -15,7 +15,7 @@ st.write("")
 st.subheader("GitHub")
 st.image("images/maxresdefault.jpg", width = 500)
 st.markdown("Visit my GitHub to see all of the code for my projects.")
-st.link_button("My LinkedIn Profile", "https://github.com/Alexdxe", type="primary")
+st.link_button("My Github Profile", "https://github.com/Alexdxe", type="primary")
 st.write("")
 
 #Photography Account
