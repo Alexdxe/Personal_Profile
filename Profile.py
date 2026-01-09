@@ -5,7 +5,7 @@ from PIL import Image
 #Title and header for the profile page
 st.markdown("<h1 style='text-align: center;'>Alexander Cai</h1>", unsafe_allow_html=True)
 st.markdown("<h5 style='text-align: center;'>Welcome to my profile page!</h5>", unsafe_allow_html=True)
-st.markdown("<h7 style='text-align: center;'>Last Updated: 01/08/2026</h7>", unsafe_allow_html=True)
+st.markdown("<h6 style='text-align: center;'>Last Updated: 01/08/2026</h6>", unsafe_allow_html=True)
 
 
 #Profile Photo:
