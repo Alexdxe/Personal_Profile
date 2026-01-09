@@ -21,28 +21,28 @@ st.image("images/Screenshot 2025-08-09 171435.png")
 st.link_button("My Spotify Page", "https://open.spotify.com/user/alexdxe64")
 st.write("")
 
-#Consumer Electronics:
-st.subheader("Consumer Electronics")
-st.markdown("I am a massive fan of both Mechanical Keyboards and In-Ear Monitors. The aesthetics, sound(produced by the switches and drivers), and experience each give me is why I always comeback to each hobby. Because both niches are so expensive, I try to put as much thought possible into each purcahse spending hours researching on each component(keyboard) and sound profile(IEMs). For now, I have stopped purchasing new keyboards, but have considered a new IEM at a discounted price.")
-photos = {
-"Keyboards": { 
-    "image": Image.open("images/20250811_141426.jpg"),
-    "caption": "My current keyboard collection. Keyboards from top to bottom: Neo70(Holy Pandas, off-brand Bocchi the Rock keycaps), Mod008(Oil Kings/Tealios V2, Mizu clones), Blade60(HMX Sonja). Switches from top to bottom: Gateron Melodics, Gateron Type R, TKC Kiwis."
-    },
-"IEMs": { 
-    "image": Image.open("images/20250811_142614.jpg"),
-    "caption": "My current IEM collection. IEMs from top left to bottom right: Tangzu Wan'er, Softears Volume, Moondrop Dusk, Moondrop Variations, Thieaudio Oracle, Unique Melody MEST."
+# #Consumer Electronics:
+# st.subheader("Consumer Electronics")
+# st.markdown("I am a massive fan of both Mechanical Keyboards and In-Ear Monitors. The aesthetics, sound(produced by the switches and drivers), and experience each give me is why I always comeback to each hobby. Because both niches are so expensive, I try to put as much thought possible into each purcahse spending hours researching on each component(keyboard) and sound profile(IEMs). For now, I have stopped purchasing new keyboards, but have considered a new IEM at a discounted price.")
+# photos = {
+# "Keyboards": { 
+#     "image": Image.open("images/20250811_141426.jpg"),
+#     "caption": "My current keyboard collection. Keyboards from top to bottom: Neo70(Holy Pandas, off-brand Bocchi the Rock keycaps), Mod008(Oil Kings/Tealios V2, Mizu clones), Blade60(HMX Sonja). Switches from top to bottom: Gateron Melodics, Gateron Type R, TKC Kiwis."
+#     },
+# "IEMs": { 
+#     "image": Image.open("images/20250811_142614.jpg"),
+#     "caption": "My current IEM collection. IEMs from top left to bottom right: Tangzu Wan'er, Softears Volume, Moondrop Dusk, Moondrop Variations, Thieaudio Oracle, Unique Melody MEST."
     
-}
-}
+# }
+# }
 
-choice = st.selectbox("Images:", list(photos.keys()))
-st.image(
-    photos[choice]["image"],
-    caption = photos[choice]["caption"],
-    use_container_width=True
-)
-st.write("")
+# choice = st.selectbox("Images:", list(photos.keys()))
+# st.image(
+#     photos[choice]["image"],
+#     caption = photos[choice]["caption"],
+#     use_container_width=True
+# )
+# st.write("")
 
 #Photography
 st.subheader("Photography")

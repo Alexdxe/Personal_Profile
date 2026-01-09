@@ -70,8 +70,18 @@ st.markdown("**Affliate Links:** A list of partners and their affliate links to 
 st.link_button("View the Full Tierlist Here", "https://docs.google.com/spreadsheets/d/1ylplV6VPPJN8xaCmFD6QBNg0nA8pSmypykF3zNjYzao/edit?usp=sharing", type= "secondary")
 st.write("")
 
+st.subheader("IEM Website (Streamlit, Google Sheets)")
+st.image("images/iem.jpg")
+st.markdown("<h5 style> Brief Introduction</h5>", unsafe_allow_html=True)
+st.markdown("This is a passion project created to display my love for In-Ear Monitors(IEMs), showcasing IEMs I have tried, opnions, and ones I use on a daily basis.")
+st.markdown("<h5 style>Pages</h5>", unsafe_allow_html=True)
+st.markdown("**Home:** Introduction to the website and personal music taste.")
+st.markdown("**Tier List:** A comphrehensive tier list of all the IEMs I have tried, based on various sound metrics and other intangible factors.")
+st.markdown("**Database:** A database of all the IEMs I have listened to, including each IEM's driver type, sound signature, and release year.")
+st.markdown("**Reviews:** Detailed reviews of some of my favorite sets, with some being accompanied video analysis.")
+st.markdown("**Daily Drivers:** A page dedicated to my current favorite IEMs I use on a daily basis.")
+st.link_button("View the Full IEM Website Here", "https://github.com/Alexdxe/IEM-Website", type= "secondary")
+
 st.subheader("Statistics Notebook")
 st.markdown("TBD")
 
-st.subheader("Probability Calculator")
-st.markdown("TBD")
